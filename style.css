@@ -1,3 +1,30 @@
+#Bt{
+    margin-left: 45%;
+    margin-right: 40%;
+}
+body {
+    --accent-color: orangered;
+    --background-color: white;
+    --text-color: black;
+    --button-text-color: var(--background-color);
+    --transition-delay: 1s;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250vh;
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  body.dark {
+    --accent-color: #D0D066;
+    --background-color: #333;
+    --text-color:rgba(201, 137, 18, 0.856);
+  }
+
+  
 .container {
     background-color: rgb(195, 224, 222);
     width: 1000px;
@@ -7,8 +34,8 @@
 
 .container h1 {
     display: flex;
-    color: rgb(63, 63, 145);
-    align-items: center;
+    color : rgb(63, 63, 145) ;
+    align-items : center;
     justify-content: center;
     padding: 20px;
 }
